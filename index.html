@@ -5,18 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <div id="celsius">
-        <input type="number" placeholder="Celsius"
-    </div>
-    <div id="fahrenheit">
-        <input type="number" placeholder="Fahrenheit"
-    </div>
-    <div id="kelvin">
-        <input type="number" placeholder="Kelvin"
+
+<div class="grid-container">
+
+    <div class="header">
+        <p>Lämpötilamuunnin</p>
     </div>
 
+    <div class="links">
+        <a href="index.html">Etusivu</a>
+        <a href="projektit.html">Projektit</a>
+        <a href="linkit.html">Linkit</a>
+    </div>
+
+    <div class="converter">
+        <div id="celsius">
+            <input type="number" placeholder="Celsius"
+        </div>
+        <div id="fahrenheit">
+            <input type="number" placeholder="Fahrenheit"
+        </div>
+        <div id="kelvin">
+            <input type="number" placeholder="Kelvin"
+        </div>
+        <div>
+        <button type="button">Click Me!</button>
+        </div>
+        <div>
+        <button type="button">Click Me!</button> 
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>SPLoT&#169; 2020</p>
+    </div>
+
+</div>
 
     <script src="project.js">
     </script>
