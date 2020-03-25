@@ -16,7 +16,7 @@ text-align: center;
 /*Header*/
 .header {
     border-radius: 0 0 100px 0;
-    background-image: url('../images/header.JPG');
+    background-image: url('../kotisivut/images/header.jpg');
     background-position: center;
     background-size: 101%;
     border: 2px #27283a;
@@ -83,11 +83,6 @@ text-align: center;
     border-style: none none solid none;
     background-color: #6B6E96;
     color: #181a2b;
-}
-
-#celsius {
-    border: 2px #27283a;
-    border-style: solid none none none;
 }
 
 
